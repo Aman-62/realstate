@@ -5,6 +5,7 @@ import { FiRepeat } from "react-icons/fi";
 import { BiArea } from "react-icons/bi";
 import { AiFillHeart } from "react-icons/ai";
 import Style from "../styles/RecentProperty.module.css";
+import Image from "next/image";
 
 // import Slider from "react-slick";
 
@@ -62,13 +63,31 @@ const RecentPropertySingle = () => {
                   className="mySwiper"
                 >
                   <SwiperSlide className={Style.sliderImg}>
-                    <img src={img1} className="imggg" alt="" />
+                    <Image
+                      src={img1}
+                      width={500}
+                      height={500}
+                      className="imggg"
+                      alt=""
+                    />
                   </SwiperSlide>
                   <SwiperSlide className={Style.sliderImg}>
-                    <img src={img2} className="imggg" alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      src={img2}
+                      className="imggg"
+                      alt=""
+                    />
                   </SwiperSlide>
                   <SwiperSlide className={Style.sliderImg}>
-                    <img src={img3} className="imggg" alt="" />
+                    <Image
+                      width={500}
+                      height={500}
+                      src={img3}
+                      className="imggg"
+                      alt=""
+                    />
                   </SwiperSlide>
                 </Swiper>
               </div>
@@ -94,9 +113,10 @@ const RecentPropertySingle = () => {
                         </a>
                       </h5>
                       <div className={Style.rlhcPrtLocation}>
-                        <img
+                        <Image
                           src="/pin.svg"
                           width={16}
+                          height={16}
                           className={Style.me1}
                           alt=""
                         />
