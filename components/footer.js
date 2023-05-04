@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 const Footer = () => {
@@ -9,7 +10,13 @@ const Footer = () => {
           <div className="grid grid-cols-12 gap-5 mx-auto">
             <div className="col-span-12 md:col-span-3 lg:col-span-3 col-lg-3 col-md-4">
               <div className="footer-widget">
-                <img src="/logo.png" className="img-footer" alt="" />
+                <Image
+                  src="/logo.png"
+                  className="img-footer"
+                  width={185}
+                  height={120}
+                  alt=""
+                />
                 <div className="footer-add">
                   <p>Collins Street West, Victoria 8007, Australia.</p>
                   <p>

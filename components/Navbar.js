@@ -2,6 +2,7 @@
 import { useGlobalContext } from "@/pages/context";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
@@ -25,7 +26,13 @@ function Navbar() {
       <div className="nav-center ">
         <div className="nav-header">
           <Link href="/">
-            <img src="/logo.png" className="nav-logo" alt="Realstate" />
+            <Image
+              src="/logo.png"
+              width={120}
+              height={100}
+              className="nav-logo"
+              alt="Realstate"
+            />
           </Link>
           <button className="btnNav toggle-btn" onClick={openSidebar}>
             <FaBars />

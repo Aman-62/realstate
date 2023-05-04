@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Searchbar = () => {
   return (
@@ -49,7 +50,7 @@ const Searchbar = () => {
                     className="form-control"
                     placeholder="Search for locality, landmark, project, or builder"
                   />
-                  <img src="assets/img/pin.svg" width={20} alt="" />
+                  <Image src="/pin.svg" height={20} width={20} alt="" />
                 </div>
               </div>
             </div>
