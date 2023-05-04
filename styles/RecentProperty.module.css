@@ -1,0 +1,261 @@
+.recentPropertiesHeader {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.cardSection {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  /* border: 1px solid grey; */
+  border-radius: 12px;
+  width: 300px;
+  min-height: 360px;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.084);
+}
+
+.sliderImg img {
+  width: 100%;
+  height: 100%;
+  object-position: center center;
+  display: block;
+  object-fit: cover;
+}
+
+.veshmListWraps {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.veshmType {
+  position: absolute;
+  left: 12px;
+  top: 15px;
+  z-index: 1000;
+  padding: 5px 14px;
+  background: #003e70;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  height: 30px;
+}
+
+.veshmType span {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+}
+/* .veshmListThumb {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+} */
+
+.compareBtn {
+  position: absolute;
+  right: 10px;
+  bottom: 200px;
+  z-index: 1000;
+  font-weight: 500;
+  font-size: 13px;
+  height: 32px;
+  padding: 0 15px;
+  border-radius: 4px;
+  border: none;
+  color: #0b3660;
+  background: #ffffff;
+}
+.compareBtn svg {
+  display: inline;
+  color: #017efa;
+  margin-right: 5px;
+}
+
+.veshmListBlock {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid #e6ebf1;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.veshmTags .trending {
+  background: #4caf50;
+}
+
+.veshmTags {
+  position: absolute;
+  top: -12px;
+  left: -2px;
+  background: #017efa;
+  padding: 0 15px;
+  height: 24px;
+  border-radius: 0px 4px 4px 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.veshmTags span {
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+}
+.veshmTags span i {
+  margin-right: 5px;
+  font-weight: 900;
+}
+
+.veshmListHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+  position: relative;
+}
+.rlhcPriceName {
+  margin: auto;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  color: #017efa !important;
+  position: relative;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+.rlhcPriceName .monthly {
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a88a8;
+  margin-left: 2px;
+}
+.listingShortDetailFlex {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+.rlhcTitleName {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.prtLinkDetail:hover {
+  color: #017efa;
+}
+.prtLinkDetail {
+  color: #022f5d;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.rlhcPrtLocation {
+  font-size: 15px;
+  display: inline-flex;
+}
+.me1 {
+  margin-right: 0.25rem !important;
+}
+
+.btnLike {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  padding: 0;
+  color: #017efa;
+  background: none;
+  border: 1px solid #e6ebf1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: all ease 0.4s;
+}
+
+.bedInf,
+.bathInf,
+.areaInf {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  padding: 0;
+  color: #017efa;
+  background: none;
+  border: 1px solid #e6ebf1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: all ease 0.4s;
+}
+
+.bedInf {
+  color: #009688;
+}
+.bathInf {
+  color: #ff5722;
+}
+.areaInf {
+  color: #9260ed;
+}
+.veshmListFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-top: 1px solid #e6ebf1;
+}
+.veshmListCircls ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.veshmListCircls ul li {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: #617896;
+}
+.veshmListCircls ul li span .bedInf {
+  color: #009688;
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 267px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 317px;
+  }
+}
+@media (max-width: 990px) {
+  .card {
+    width: 340px;
+  }
+}
+@media (max-width: 760px) {
+  .card {
+    width: 532px;
+  }
+}
