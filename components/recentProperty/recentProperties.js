@@ -4,7 +4,7 @@ import Style from "../../styles/RecentProperty.module.css";
 
 const RecentProperties = () => {
   return (
-    <section className="bg-white py-1 pb-10">
+    <section className="bg-white py-1 pb-10 recentPropertySection">
       <div className="container mx-auto bg-white">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10 text-center">

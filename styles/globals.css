@@ -1081,6 +1081,7 @@ span.prefix-title {
 .veshm-list-click:focus .slick-prev {
   display: block !important;
 }
+
 .compare-btn {
   position: absolute;
   right: 10px;
@@ -1182,24 +1183,44 @@ span.prefix-title {
   justify-content: flex-start;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
+  color: rgba(255, 255, 255, 0.755) !important;
+}
+
 .swiper-button-prev {
   scale: 0.6;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.687);
   transition: 0.1s ease;
+  left: 0px !important;
 }
 .swiper-button-next {
   scale: 0.6;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.5);
   transition: 0.1s ease;
+  right: 0px !important;
 }
-.swiper-button-prev:hover {
-  scale: 0.6;
-  color: rgba(255, 255, 255, 0.8) !important;
+/* .recentPropertySection article > div:hover .swiper-button-prev,
+.swiper-button-next {
+  opacity: 1;
+} */
+/* .swiper-button-prev:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 .swiper-button-next:hover {
-  scale: 0.6;
-  color: rgba(255, 255, 255, 0.8) !important;
-}
+  color: rgba(255, 255, 255, 0.8);
+} */
 /*!---------------------------------  */
 
 /*----------------------------------------------
