@@ -33,7 +33,7 @@ Variables
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-10: #eeeeee;
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -45,7 +45,7 @@ Variables
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 1170px;
+  --max-width: 1100px;
   --fixed-width: 620px;
 }
 /*
@@ -146,15 +146,13 @@ Stripe Styles
 ===============
 */
 .nav {
-  /* background-color: black !important; */
-  height: 5rem !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  /* background: transparent !important; */
+  height: 5rem;
+  z-index: 1;
+  position: relative;
 
-  position: relative !important;
-  z-index: 1 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav-center {
   width: 90vw;
@@ -175,7 +173,7 @@ Stripe Styles
 }
 .btnNav {
   font-size: 1rem;
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   border-radius: var(--radius);
   border-color: transparent;
   color: white;
@@ -189,12 +187,12 @@ Stripe Styles
 .nav-links {
   display: none;
 }
-.signin-btn {
-  background-color: #eee;
-  color: #111;
+.signIn-btn {
+  background-color: #363636;
+  color: #eee;
   display: none;
 }
-.signup-btn {
+.signUp-btn {
   background-color: #017efa;
   display: none;
 }
@@ -259,37 +257,33 @@ Stripe Styles
   .toggle-btn {
     display: none;
   }
-  .signin-btn {
+  .signIn-btn {
     display: inline-block;
   }
-  .signup-btn {
+  .signUp-btn {
     display: inline-block;
   }
   .nav-links {
-    display: block;
-    justify-self: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     height: 100%;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
     margin-bottom: 0;
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 1.75rem;
   }
   .nav-links li {
     height: 100%;
-    /* border: 2px solid; */
   }
   .link-btn {
     height: 100%;
     background: transparent;
     border-color: transparent;
-    font-size: 0.85rem;
-    /* color: white; */
+    font-size: 0.9rem;
     text-transform: capitalize;
     letter-spacing: 1px;
-    /* -width: 10rem; */
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
