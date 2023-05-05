@@ -7,7 +7,7 @@ const Hero = () => {
   // col-lg-9 col-md-11 col-sm-12
   return (
     <section className="hero" onMouseOver={closeSubmenu}>
-      <div className="hero-center grid justify-center align-middle place-content-center grid-cols-12">
+      <div className="hero-center flex justify-center align-middle ">
         <div className="col-span-10 justify-self-center align-middle mx-auto">
           <article className=" hero-info">
             <h1 className="font-bold">
