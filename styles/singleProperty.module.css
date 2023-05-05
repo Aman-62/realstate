@@ -1,0 +1,476 @@
+.graySimple {
+  background: #f1f5f8 !important;
+  margin-top: 80px;
+}
+
+.veshDetailBloc {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  background: #ffffff;
+  padding: 0;
+  border-radius: 0.4rem;
+}
+
+.veshDetailHeadup {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+.veshDetailHeadupFirst {
+  padding: 0 1rem 0 0rem;
+}
+/* hvjgvjv vvjhvjvjhvvkvkh k */
+.prtDetailTitleDesc {
+  display: block;
+  position: relative;
+}
+
+.labelSuccess {
+  background-color: #00be82;
+  padding: 5px 18px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 75%;
+}
+
+.prtDetailTitleDesc h4 {
+  padding: 5px 0px;
+  color: #05264e;
+  line-height: 26px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.textMid {
+  color: #617896;
+  font-size: 17px;
+  font-weight: 500;
+}
+.me2 {
+  margin-right: 0.5rem !important;
+}
+.mt2 {
+  margin-top: 0.5rem !important;
+}
+
+.labelLightSuccess {
+  background-color: rgba(0, 190, 130, 0.1);
+  color: #00be82;
+  padding: 4px 15px;
+  margin-right: 0.5rem !important;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 75%;
+}
+.labelLightInfo {
+  background-color: rgba(1, 126, 250, 0.1);
+  color: #017efa;
+  padding: 4px 15px;
+  margin-right: 0.5rem !important;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 75%;
+}
+.labelLightDanger {
+  background-color: rgba(229, 81, 81, 0.1);
+  color: #e55151;
+  padding: 4px 15px;
+  margin-right: 0.5rem !important;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 75%;
+}
+
+.prtPriceFixThemeCl {
+  display: block;
+  margin: 0;
+  line-height: 1.5;
+  color: #017efa !important;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.prtPriceFixThemeCl span {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #687b96;
+}
+
+.veshDetailBloc {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  background: #ffffff;
+  padding: 0;
+  border-radius: 0.4rem;
+}
+.veshDetailBloc .veshDetailBlocHeader {
+  padding: 1rem 1.5rem;
+  border: none;
+}
+.veshDetailBloc .veshDetailBlocHeader h4 {
+  margin: 0;
+  font-weight: 700;
+  color: #05264e;
+  font-size: 18px;
+}
+.veshDetailBloc .veshDetailBlocBody {
+  padding: 0rem 1.5rem 1.5rem;
+  display: inline-block;
+  width: 100%;
+}
+.vesh-detail-bloc-body p {
+  margin-bottom: 0;
+  margin: 0 0 10px;
+  line-height: 1.8;
+}
+.veshDetailBlocHeader .achr {
+  color: #022f5d;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.veshDetailBloc .veshDetailBlocHeader .achr1:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f106";
+  position: relative;
+  float: right;
+  margin-right: 0px;
+  transition: 0.2s ease-out;
+  background: rgba(1, 126, 250, 0.1);
+  border: 1px solid rgba(1, 126, 250, 0.2);
+  color: #017efa;
+  width: 26px;
+  height: 26px;
+  font-weight: 600;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ilioIconwWrap {
+  list-style: none;
+  width: 100%;
+  height: 100px;
+  border-radius: 0.2rem;
+  background: #f3f7fa;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ilioIcon {
+  font-size: 30px;
+  color: #1b5086;
+}
+.ilioText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #294459;
+}
+
+.avlFeatures {
+  margin: 0;
+  padding: 0;
+  display: -ms-flexbox;
+  list-style: none;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.avlFeatures li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin: 10px 0 10px;
+  padding-left: 30px;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  color: #617896;
+  font-size: 14px;
+}
+.avlFeatures li:before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  color: #00ba74;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 186, 116, 0.1);
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  left: 0;
+}
+
+.mb4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.featureH1 {
+  line-height: 20px;
+  font-size: 16px;
+  color: #05264e;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.lvsCaption {
+  color: #617896;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.lvsCaption i {
+  color: #017efa;
+  margin-right: 10px;
+}
+
+.likeShareList {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.likeShareList li {
+  flex: 0 0 33.333333%;
+  width: 33.333333%;
+  list-style: none;
+  display: block;
+  padding: 0 0.5rem;
+}
+
+.likeShareList li .btnLightSuccess {
+  width: 100%;
+}
+.likeShareList .btnLightSuccess {
+  font-weight: 500;
+}
+
+.btnLightSuccess {
+  background: rgba(0, 190, 130, 0.12);
+  border-color: rgba(0, 190, 130, 0.5);
+  color: #00be82;
+  padding: 10px 20px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(0, 190, 130, 0.5);
+}
+.btnLightSuccess:hover,
+.btnLightSuccess:focus,
+.btnLightSuccess:active {
+  background: #00be82 !important;
+  border-color: #00be82 !important;
+  color: #ffffff !important;
+}
+.btnLightDanger {
+  background: rgba(216, 67, 67, 0.12);
+  border-color: rgba(216, 67, 67, 0.5);
+  width: 100%;
+  color: rgba(216, 67, 67, 1);
+  padding: 10px 20px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(216, 67, 67, 0.5);
+}
+.btnLightDanger:hover,
+.btnLightDanger:focus,
+.btnLightDanger:active {
+  background: #d84343 !important;
+  border-color: #d84343 !important;
+  color: #ffffff !important;
+}
+.btnLightPrimary {
+  background: rgba(1, 126, 250, 0.1);
+  border-color: rgba(1, 126, 250, 0.65);
+  color: #017efa;
+  width: 100%;
+  padding: 10px 20px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(1, 126, 250, 0.65);
+}
+.btnLightPrimary:hover,
+.btnLightPrimary:focus,
+.btnLightPrimary:active {
+  background: #017efa !important;
+  border-color: #017efa !important;
+  color: #ffffff !important;
+}
+
+.pgSideGroups {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.pgSideBlock {
+  position: relative;
+  display: block;
+  background: #ffffff !important;
+  border-radius: 0.4rem;
+  margin-bottom: 20px;
+  margin: 0;
+}
+.pgSideBlockHead {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  border-bottom: 2px solid #f3f7fa;
+}
+.pgSideLeft {
+  margin-right: 15px;
+}
+.pgSideThumb {
+  width: 80px;
+  border: 4px solid #f3f7fa;
+  border-radius: 50%;
+}
+.circle {
+  border-radius: 100%;
+}
+
+.sch1 {
+  font-size: 20px;
+  margin: 0;
+  color: #05264e;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.sph1 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #617896;
+}
+.pgSideBlockInfo {
+  position: relative;
+  display: block;
+  padding: 1.5rem 1.5rem 1rem;
+}
+.vlElfoGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.vlElfoIcon {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #2d5272;
+  margin-right: 7px;
+  border: 2px solid #f3f7fa;
+}
+.vlElfoCaption {
+  display: block;
+  position: relative;
+  width: auto;
+}
+
+.vlElfoCaption h6 {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  color: #05264e;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.vlElfoCaption p {
+  margin: 0;
+  font-size: 13px;
+  color: #617896;
+  font-weight: 500;
+}
+.pgSideBlockButtons {
+  position: relative;
+  display: block;
+  padding: 0 1.5rem 1.5rem;
+}
+.singleButton {
+  display: block;
+  margin: 10px 0;
+}
+.btnTheme {
+  background: #017efa;
+  border-color: #017efa;
+  width: 100%;
+  color: #ffffff;
+  padding: 10px 20px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  border-radius: 0.4rem;
+  border: 2px solid transparent;
+}
+
+.btnSuccess {
+  background: rgba(0, 190, 130, 0.12);
+  border-color: rgba(0, 190, 130, 0.5);
+  color: #00be82;
+  width: 100%;
+  padding: 10px 20px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(0, 190, 130, 0.5);
+}
+.btnSuccess:hover,
+.btnSuccess:focus,
+.btnSuccess:active {
+  background: #00be82 !important;
+  border-color: #00be82 !important;
+  color: #fff !important;
+}
