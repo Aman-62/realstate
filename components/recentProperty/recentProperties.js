@@ -1,6 +1,6 @@
 import React from "react";
 import RecentPropertySingle from "./recentPropertySingle";
-import Style from "../styles/RecentProperty.module.css";
+import Style from "../../styles/RecentProperty.module.css";
 
 const RecentProperties = () => {
   return (

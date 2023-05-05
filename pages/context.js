@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import sublinks from "@/components/headerData";
+import sublinks from "@/components/header/headerData";
 
 const AppContext = React.createContext();
 

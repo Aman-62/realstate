@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Searchbar = () => {
   return (
-    <div className="search-from-clasic mt-5">
+    <div className="search-from-clasic mt-5 col-span-12">
       <div className="hero-search-content">
         <div className="grid grid-cols-12">
           <div className="col-span-10 sm:col-span-12 md:col-span-9 xl:col-span-10 lg:col-span-10">

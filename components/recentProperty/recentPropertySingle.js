@@ -4,7 +4,7 @@ import { FaBed, FaBath } from "react-icons/fa";
 import { FiRepeat } from "react-icons/fi";
 import { BiArea } from "react-icons/bi";
 import { AiFillHeart } from "react-icons/ai";
-import Style from "../styles/RecentProperty.module.css";
+import Style from "../../styles/RecentProperty.module.css";
 import Image from "next/image";
 
 // import Slider from "react-slick";
