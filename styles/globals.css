@@ -716,6 +716,14 @@ textarea.form-control {
 /*! HERO FORM STYLE */
 /*!---------------------------------  */
 
+/** BANNER  */
+.banner {
+  background-image: url(/page-title.png);
+  background-size: cover;
+  background-position: center center;
+}
+/**----------------  */
+
 /*====================================
 	Vesh Property Style
 ======================================*/
