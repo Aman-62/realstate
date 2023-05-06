@@ -1,12 +1,56 @@
 import React from "react";
 import Style from "../../styles/singleProperty.module.css";
-import { FaBed } from "react-icons/fa";
+import {
+  FaBed,
+  FaBath,
+  FaLayerGroup,
+  FaWarehouse,
+  FaBuilding,
+  FaLandmark,
+  FaFan,
+  FaSnowflake,
+  FaFire,
+  FaUtensils,
+  FaDumbbell,
+  FaChromecast,
+  FaTv,
+  FaCanadianMapleLeaf,
+  FaBasketballBall,
+  FaSeedling,
+  FaParking,
+  FaShower,
+  FaWater,
+  FaPlug,
+  FaFireAlt,
+  FaDropbox,
+  FaWheelchair,
+  FaElementor,
+  FaFireExtinguisher,
+  FaSmoking,
+  FaBacon,
+  FaWifi,
+  FaShare,
+  FaHeart,
+  FaPrint,
+  FaLocationArrow,
+  FaPhoneVolume,
+  FaEnvelope,
+  FaGlobe,
+  FaComments,
+  FaPaperPlane,
+} from "react-icons/fa";
+import { FaGlassCheers } from "react-icons/fa";
+import { BsBuildingFillCheck } from "react-icons/bs";
+import { GiWashingMachine, GiWaterDrop } from "react-icons/gi";
+import { MdElevator } from "react-icons/md";
+import SinglePropertyCarousel from "@/components/singlePropertyCarousel";
 
 const singleProperty = () => {
   return (
     <>
       <section className={Style.graySimple}>
-        <div className="container mx-auto px-12 ">
+        <SinglePropertyCarousel />
+        <div className="container mx-auto px-5 mt-10">
           <div className="grid grid-cols-12  gap-8">
             <div className="col-span-12 md:col-span-8">
               <div className={Style.veshDetailBloc}>
@@ -91,7 +135,6 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3 shadow-sm rounded-md">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            {/* <i className="fa-solid fa-bed" /> */}
                             <FaBed />
                           </div>
                           <div className={Style.ilioText}>3 Bedrooms</div>
@@ -100,7 +143,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-solid fa-bath" />
+                            <FaBath />
                           </div>
                           <div className={Style.ilioText}>2 Bathrooms</div>
                         </div>
@@ -108,7 +151,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-solid fa-layer-group" />
+                            <FaLayerGroup />
                           </div>
                           <div className={Style.ilioText}>4,240 sq ft</div>
                         </div>
@@ -116,7 +159,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-solid fa-warehouse" />
+                            <FaWarehouse />
                           </div>
                           <div className={Style.ilioText}>1 Garage</div>
                         </div>
@@ -125,6 +168,7 @@ const singleProperty = () => {
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
                             <i className="fa-regular fa-building" />
+                            <FaBuilding />
                           </div>
                           <div className={Style.ilioText}>Apartment</div>
                         </div>
@@ -132,7 +176,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-solid fa-building-wheat" />
+                            <FaLandmark />
                           </div>
                           <div className={Style.ilioText}>Built 1982</div>
                         </div>
@@ -141,6 +185,7 @@ const singleProperty = () => {
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
                             <i className="fa-solid fa-building-circle-check" />
+                            <BsBuildingFillCheck />
                           </div>
                           <div className={Style.ilioText}>Active</div>
                         </div>
@@ -148,7 +193,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-solid fa-fan" />
+                            <FaFan />
                           </div>
                           <div className={Style.ilioText}>Central A/C</div>
                         </div>
@@ -156,7 +201,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-regular fa-snowflake" />
+                            <FaSnowflake />
                           </div>
                           <div className={Style.ilioText}>Forced Air</div>
                         </div>
@@ -165,6 +210,7 @@ const singleProperty = () => {
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
                             <i className="fa-solid fa-bowl-food" />
+                            <FaUtensils />
                           </div>
                           <div className={Style.ilioText}>
                             Kitchen Facilities
@@ -174,7 +220,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-solid fa-martini-glass-citrus" />
+                            <FaGlassCheers />
                           </div>
                           <div className={Style.ilioText}>Bar &amp; Drinks</div>
                         </div>
@@ -182,7 +228,7 @@ const singleProperty = () => {
                       <div className="col-span-6 md:col-span-3">
                         <div className={Style.ilioIconwWrap}>
                           <div className={Style.ilioIcon}>
-                            <i className="fa-regular fa-building" />
+                            <FaBuilding />
                           </div>
                           <div className={Style.ilioText}>4 Floor</div>
                         </div>
@@ -255,31 +301,31 @@ const singleProperty = () => {
                       <div className="grid grid-cols-12  gap-4 mt-2">
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-utensils" />
+                            <FaUtensils />
                             Equipped Kitchen
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-dumbbell" />
+                            <FaDumbbell />
                             Gym
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-jug-detergent" />
+                            <GiWashingMachine />
                             Laundry
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-brands fa-chromecast" />
+                            <FaChromecast />
                             Media Room
                           </div>
                         </div>
                         <div className="col-span-12 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-tv" />
+                            <FaTv />
                             TV Set
                           </div>
                         </div>
@@ -294,37 +340,37 @@ const singleProperty = () => {
                       <div className="grid grid-cols-12  gap-4 mt-2">
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-brands fa-canadian-maple-leaf" />
+                            <FaCanadianMapleLeaf />
                             Back yard
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-basketball" />
+                            <FaBasketballBall />
                             Basketball court
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-seedling" />
+                            <FaSeedling />
                             Front yard
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-square-parking" />
+                            <FaParking />
                             Garage Attached
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-shower" />
+                            <FaShower />
                             Hot Bath
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-water-ladder" />
+                            <GiWaterDrop />
                             Pool
                           </div>
                         </div>
@@ -339,37 +385,37 @@ const singleProperty = () => {
                       <div className="grid grid-cols-12  gap-4 mt-2">
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-fan" />
+                            <FaFan />
                             Central Air
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-plug" />
+                            <FaPlug />
                             Electricity
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-fire" />
+                            <FaFire />
                             Heating
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-fire-flame-simple" />
+                            <FaFireAlt />
                             Natural Gas
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-snowflake" />
+                            <FaSnowflake />
                             Ventilation
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-droplet" />
+                            <FaDropbox />
                             Water
                           </div>
                         </div>
@@ -384,37 +430,37 @@ const singleProperty = () => {
                       <div className="grid grid-cols-12  gap-4 mt-2">
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-wheelchair" />
+                            <FaWheelchair />
                             Chair Accessible
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-elevator" />
+                            <MdElevator />
                             Elevator
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-fire-extinguisher" />
+                            <FaFireExtinguisher />
                             Fireplace
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-smoking" />
+                            <FaSmoking />
                             Smoke detectors
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-bacon" />
+                            <FaBacon />
                             Washer and dryer
                           </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                           <div className={Style.lvsCaption}>
-                            <i className="fa-solid fa-wifi" />
+                            <FaWifi />
                             WiFi
                           </div>
                         </div>
@@ -540,7 +586,7 @@ const singleProperty = () => {
                       data-toggle="tooltip"
                       data-original-title="Share"
                     >
-                      <i className="fa-solid fa-share-from-square me-2" />
+                      <FaShare />
                       Share
                     </a>
                   </li>
@@ -551,7 +597,7 @@ const singleProperty = () => {
                       data-toggle="tooltip"
                       data-original-title="Save"
                     >
-                      <i className="fa-solid fa-heart-circle-check me-2" />
+                      <FaHeart />
                       Save
                     </a>
                   </li>
@@ -562,7 +608,7 @@ const singleProperty = () => {
                       data-toggle="tooltip"
                       data-original-title="Save"
                     >
-                      <i className="fa-solid fa-print me-2" />
+                      <FaPrint />
                       Print
                     </a>
                   </li>
@@ -585,7 +631,7 @@ const singleProperty = () => {
                       <div className="pgSideRightCaption">
                         <h4 className={Style.sch1}>Ht. Mickle Hussy</h4>
                         <span className={Style.sph1}>
-                          <i className="fa-solid fa-location-dot me-2" />
+                          <FaLocationArrow />
                           Liverpool, UK
                         </span>
                       </div>
@@ -595,7 +641,7 @@ const singleProperty = () => {
                     <div className={Style.pgSideBlockInfo}>
                       <div className={Style.vlElfoGroup}>
                         <div className={Style.vlElfoIcon}>
-                          <i className="fa-solid fa-phone-volume" />
+                          <FaPhoneVolume />
                         </div>
                         <div className={Style.vlElfoCaption}>
                           <h6>Call Us</h6>
@@ -604,7 +650,7 @@ const singleProperty = () => {
                       </div>
                       <div className={Style.vlElfoGroup}>
                         <div className={Style.vlElfoIcon}>
-                          <i className="fa-regular fa-envelope" />
+                          <FaEnvelope />
                         </div>
                         <div className={Style.vlElfoCaption}>
                           <h6>Drop A Mail</h6>
@@ -613,7 +659,7 @@ const singleProperty = () => {
                       </div>
                       <div className={Style.vlElfoGroup}>
                         <div className={Style.vlElfoIcon}>
-                          <i className="fa-solid fa-globe" />
+                          <FaGlobe />
                         </div>
                         <div className={Style.vlElfoCaption}>
                           <h6>Website</h6>
@@ -630,6 +676,7 @@ const singleProperty = () => {
                           className={Style.btnSuccess}
                         >
                           <i className="fa-solid fa-paper-plane me-2" />
+                          <FaPaperPlane />
                           Send An offer
                         </a>
                       </div>
@@ -640,7 +687,7 @@ const singleProperty = () => {
                           data-bs-target="#message"
                           className={Style.btnTheme}
                         >
-                          <i className="fa-solid fa-comments me-2" />
+                          <FaComments />
                           Send A Message
                         </a>
                       </div>
@@ -652,7 +699,6 @@ const singleProperty = () => {
           </div>
         </div>
       </section>
-              
     </>
   );
 };

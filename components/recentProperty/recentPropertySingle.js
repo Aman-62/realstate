@@ -5,6 +5,7 @@ import { BiArea } from "react-icons/bi";
 import { AiFillHeart } from "react-icons/ai";
 import styles from "../../styles/RecentProperty.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 import { recentPropertyData } from "./recentPropertyData";
 // import Swiper core and required modules
@@ -90,9 +91,12 @@ const RecentPropertySingle = () => {
                     </div>
                     <div className={styles.listingShortDetailFlex}>
                       <h5 className={styles.rlhcTitleName}>
-                        <a className={styles.prtLinkDetail} href="#">
+                        <Link
+                          className={styles.prtLinkDetail}
+                          href="properties/singleProperty"
+                        >
                           {name}
-                        </a>
+                        </Link>
                       </h5>
                       <div className={styles.rlhcPrtLocation}>
                         <Image

@@ -1,6 +1,7 @@
 import React from "react";
 import Searchbar from "./searchbar";
 import { useGlobalContext } from "@/pages/context";
+import Link from "next/link";
 
 const Hero = () => {
   const { closeSubmenu } = useGlobalContext();

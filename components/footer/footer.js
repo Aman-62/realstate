@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 // import "bootstrap/dist/css/bootstrap.min.css";
+import { FaPhoneAlt } from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
@@ -18,16 +20,16 @@ const Footer = () => {
                   alt=""
                 />
                 <div className="footer-add">
-                  <p>Collins Street West, Victoria 8007, Australia.</p>
+                  <p>Collins Street West, Noida Sector-15, India.</p>
                   <p>
                     <span className="ftp-info">
-                      <i className="fa fa-phone" aria-hidden="true" />
-                      +1 246-345-0695
+                      <FaPhoneAlt />
+                      +91 000-999-333
                     </span>
                   </p>
                   <p>
                     <span className="ftp-info">
-                      <i className="fa fa-envelope" aria-hidden="true" />
+                      <HiMail />
                       info@example.com
                     </span>
                   </p>
@@ -36,7 +38,7 @@ const Footer = () => {
             </div>
             <div className=" col-span-4 md:col-span-3 lg:col-span-3 col-lg-2 col-md-4">
               <div className="footer-widget">
-                <h4 className="widget-title">Navigations</h4>
+                <h4 className="widget-title">Navigation</h4>
                 <ul className="footer-menu">
                   <li>
                     <a href="#">About Us</a>
