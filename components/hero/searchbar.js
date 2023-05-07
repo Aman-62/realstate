@@ -6,8 +6,8 @@ const Searchbar = () => {
     <div className="search-from-clasic mt-5 col-span-12">
       <div className="hero-search-content ">
         <div className="grid grid-cols-12">
-          <div className="col-span-10 sm:col-span-12 md:col-span-9 xl:col-span-10 lg:col-span-10">
-            <div className="classic-search-box">
+          <div className="col-span-12 sm:col-span-12 md:col-span-9 xl:col-span-10 lg:col-span-10">
+            <div className="classic-search-box flex-col md:flex-row">
               <div className="form-group">
                 <div className="choose-propert-type">
                   <ul className=" flex justify-center align-middle">
@@ -39,7 +39,7 @@ const Searchbar = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-2 sm:col-span-12 md:col-span-3 xl:col-span-2 flex justify-center items-center lg:col-span-2">
+          <div className="col-span-12 sm:col-span-12 md:col-span-3 xl:col-span-2 flex justify-center items-center lg:col-span-2">
             <div className="form-group">
               <button
                 type="submit"

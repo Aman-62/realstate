@@ -63,9 +63,13 @@ function Navbar() {
             </button>
           </li>
         </ul>
-        <div className="btnGroup">
-          <button className="btnNav signIn-btn">Sign In</button>
-          <button className="btnNav signUp-btn">Sign Up</button>
+        <div className="navBtnGroup">
+          <button className="btnNav signIn-btn hover:bg-slate-900">
+            Sign In
+          </button>
+          <button className="btnNav signUp-btn hover:bg-blue-700">
+            Sign Up
+          </button>
         </div>
       </div>
     </nav>
