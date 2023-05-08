@@ -30,8 +30,8 @@ const sublinks = [
   {
     page: "company",
     links: [
-      { label: "about", icon: <FaBriefcase />, url: "/products" },
-      { label: "customers", icon: <FaBriefcase />, url: "/form" },
+      { label: "dashboard", icon: <FaBriefcase />, url: "/userDashboard" },
+      { label: "submitProperty", icon: <FaBriefcase />, url: "/form" },
     ],
   },
 ];

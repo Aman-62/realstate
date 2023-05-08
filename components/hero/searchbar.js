@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Searchbar = () => {
   return (
@@ -41,12 +42,14 @@ const Searchbar = () => {
           </div>
           <div className="col-span-12 sm:col-span-12 md:col-span-3 xl:col-span-2 flex justify-center items-center lg:col-span-2">
             <div className="form-group">
-              <button
-                type="submit"
-                className="btn text-white font-semibold bg-blue-500  py-7 px-8  rounded"
-              >
-                Search
-              </button>
+              <Link href={"/properties/properties"}>
+                <button
+                  type="submit"
+                  className="btn text-white font-semibold bg-blue-500  py-7 px-8  rounded"
+                >
+                  Search
+                </button>
+              </Link>
             </div>
           </div>
         </div>
